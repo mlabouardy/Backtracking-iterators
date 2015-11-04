@@ -4,4 +4,22 @@
   <artifactId>backtracking-iterators</artifactId>
   <version>1.0</version>
   <description>Backtracking Iterators: Preoder/Postorder/Inorder/BFS/Zipper</description>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+                <archive>
+                    <index>true</index>
+                    <manifest>
+                        <mainClass>com.labouardy.app.Main</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+  	</plugins>
+  </build>
 </project>
