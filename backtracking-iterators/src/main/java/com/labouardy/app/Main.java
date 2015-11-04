@@ -10,13 +10,13 @@ public class Main {
 		tree.insert(7);
 		tree.insert(1);
 		tree.insert(3);
-		System.out.println("Post order");
+		System.out.println("\nPost order");
 		tree.postOrder();
-		System.out.println("In Order");
+		System.out.println("\nIn Order");
 		tree.inOrder();
-		System.out.println("Pre order");
+		System.out.println("\nPre order");
 		tree.preOrder();
-		System.out.println("BF");
+		System.out.println("\nBF");
 		tree.bf();
 	}
 }
